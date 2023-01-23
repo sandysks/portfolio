@@ -43,6 +43,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={logo}
+                alt=""
               />
             </div>
 
@@ -75,7 +76,7 @@ export default function Home() {
           </nav>
           <div className="text-center">
             <h2 className="text-5xl text-teal-600 font-semibold dark:text-teal-400 md:text-6xl">
-              Hi, I'm Sandeep. Nice to meet you.
+              Hi, I&apos;m Sandeep. Nice to meet you.
             </h2>
             <h3 className="text-3xl py-2 dark:text-white md:text-4xl">
               Designer & Frontend Developer
@@ -93,7 +94,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <Image src={sandeep} />
+              <Image src={sandeep} alt="" />
             </div>
           </div>
         </section>
@@ -113,6 +114,7 @@ export default function Home() {
                 width={100}
                 height={100}
                 className="mx-auto"
+                alt=""
               />
               <h3 className="text-2xl font-medium tracking-[.4rem] pt-8 pb-2 text-teal-600  ">
                 DESIGNER
@@ -130,7 +132,13 @@ export default function Home() {
               <p className="text-gray-800 py-1">Blender</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} className="mx-auto" />
+              <Image
+                src={code}
+                width={100}
+                height={100}
+                className="mx-auto"
+                alt=""
+              />
               <h3 className="text-2xl tracking-[.4rem] font-medium text-teal-600 pt-8 pb-2 ">
                 FRONTEND DEVELOPER
               </h3>
@@ -155,7 +163,7 @@ export default function Home() {
               My Recent Work With React JS
             </h3>
             <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Here are a few past React JS projects I've worked on.
+              Here are a few past React JS projects I&apos;ve worked on.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -175,6 +183,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web1}
+                    alt=""
                   />
                 </span>
               </a>
@@ -262,6 +271,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web2}
+                    alt=""
                   />
                 </span>
               </a>
@@ -325,6 +335,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web3}
+                    alt=""
                   />
                 </span>
               </a>
@@ -412,6 +423,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web4}
+                    alt=""
                   />
                 </span>
               </a>
@@ -464,7 +476,7 @@ export default function Home() {
               My Recent Work With Figma and Webflow
             </h3>
             <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Here are a few past Web Design projects I've worked on.
+              Here are a few past Web Design projects I&apos;ve worked on.
             </p>
           </div>
           <div className="flex flex-col gap-10 pt-10 lg:flex-row lg:flex-wrap">
@@ -484,6 +496,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web5}
+                    alt=""
                   />
                 </span>
               </a>
@@ -581,6 +594,7 @@ export default function Home() {
                     height={"100%"}
                     layout="responsive"
                     src={web6}
+                    alt=""
                   />
                 </span>
               </a>
@@ -649,6 +663,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={logonew}
+                alt=""
               />
             </div>
             <h1 className="text-5xl font-medium text-teal-500 pt-7  ">
